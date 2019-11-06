@@ -1,0 +1,368 @@
+.associate-header{
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    .logo {
+        padding: 10px 20px;
+        display: inline-block;
+    }
+    .associate-log-out{
+        float: right;
+        position: relative;
+        top: 35px;
+        right: 25px;
+        display: flex;
+        // vertical-align: middle;
+
+    
+        .associate-icon{
+            margin: 0px 10px;
+            color: #1976d2;
+            display: inline-block;
+        }
+    
+        .user-name{
+            display: inline-block;
+            padding-right: 20px;
+        }
+    
+        .vr-line{
+            display: inline-block;
+            padding-right: 20px;
+        }
+    
+        .user-log-out{
+            display: inline-block;
+            a{
+                color: #1976d2;
+            }
+        }
+    }
+}
+
+.general-info-page {
+    padding: 10px 20px 10px 20px;
+    .logo-width{
+        width: 50%;
+    }
+
+    .invalid-upload {
+        color: red;
+    }
+
+    .associate-add-button{
+        display: inline-block;
+        position: absolute;
+        top: 36%;
+    }
+
+    .document-text{
+        display: inline-flex;
+        vertical-align: middle;
+    }
+
+    .document-upload{
+        padding: 10px;
+    }
+
+    .document-upload-button{
+        float: right;
+        height: 40px;
+    }
+
+    .background-col-color{
+        background-color: #f5f5f5 !important;
+    }
+
+    .logo-width{
+        padding-bottom: 10px;
+    }
+
+    .doc-container{
+        .header {
+            padding-top: 15px !important;
+        }
+        .row {
+            margin-top: 0px !important;
+            position: relative;
+            bottom: 0px;
+        }
+        
+    }
+    .block-element {
+        display: block;
+    }
+    .docupload {
+        border: 1px solid #ccc;  
+        width: 192px; 
+        .disable-upload {
+            pointer-events: none;
+        } 
+        .upload-btn-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+
+            .btn-wrapper {
+                padding: 7px 10px;
+                line-height: 30px;
+                cursor: pointer;
+                .btn {
+                    color: gray;
+                    background-color: transparent;
+                    font-size: 12px;
+                    border: 0 none;
+                    padding: 0;
+
+                    img {
+                        vertical-align: text-bottom;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            input[type=file] {
+                font-size: 100px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                opacity: 0;
+                cursor: pointer;
+            }    
+            
+        }
+        .delete {
+            top: 5px;
+            display: inline-block;
+            position: relative;
+            margin-right: 4px;
+            cursor: pointer;
+        }
+    }
+
+    .contact-add-delete {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+
+    .bottom-margin {
+        margin-bottom: 5%;
+    }
+
+    .general-tabs {
+        // margin-top: 10px;
+        clear: both;
+        .heading-generalInfo, .heading-documents, .heading-agreement {
+            min-width: 15%;
+            border: none;
+            float: left;
+            padding: 12px 12px 12px 0;
+            margin-right: 40px;
+            text-align: center;
+            cursor: pointer;
+
+            .tab-text{
+                position: relative;
+                top: 2px;
+            }
+
+            .inactive-tabText {
+                color: darkgray;
+            }
+
+            .activeTab {
+                color: #318DE9;
+            }
+
+            .processed {
+                color: #212529;
+            }
+
+            p {
+                height: 40px;
+                border: 1px solid #eeeeee;
+                vertical-align: middle;
+                line-height: 40px;
+                background-color: #ffffff;
+                border-radius: 20px;
+                margin-bottom: 0px;
+
+                .checkMark-green {
+                    width: 17px;
+                    height: 17px;
+                    padding: 4px 10px 5px 10px;
+                    margin-right: 5px;
+                    vertical-align: middle;
+                }
+
+                .checkMark-gray {
+                    width: 17px;
+                    height: 17px;
+                    padding: 4px 10px 5px 10px;
+                    margin-right: 5px;
+                    vertical-align: middle;
+                }
+                i {
+                    margin-right: 5px;
+                }
+                
+            }
+            .MuiSvgIcon-root {
+                vertical-align: middle;
+            }
+            .step-completed {
+                color: rgba(76, 175, 56, 0.87);
+            }
+            .step-inactive {
+                color:darkgray
+            }
+        }
+        .user-status-message {
+            float: right;
+            min-width: 35%;
+            padding: 12px;
+            text-align: right;
+
+            p {
+                height: 30px;
+                vertical-align: middle;
+                line-height: 26px;
+                margin-bottom: 0px;
+                // color: $dark_green;
+                color: darkgreen;
+                font-size: 14px;
+                .rejected {
+                    color:red;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .commentbox-wrapper {
+        background-color: #f5f5f5;
+        display: block;
+        padding: 10px 10px 0 10px;
+        margin-bottom: 2%; 
+        width: 97%;
+        margin: 0 auto;   
+        h4 {
+            color: #464D69;
+            font-size: 16px;
+            margin: 0 auto;
+        }
+        .header-text {
+            cursor: pointer;
+            padding: 3px 0px 13px 0px;
+            
+            .up-arrow {
+                transform: rotate(-180deg);
+                background-repeat: no-repeat;
+                margin-right: 5px;
+                vertical-align: middle;
+            }
+    
+            .image-style {
+                display: inline-block;
+                cursor: pointer;
+            }
+    
+            .down-arrow {
+                background-repeat: no-repeat;
+                margin-right: 5px;
+                vertical-align: middle;
+            }
+        }
+        .message-block {
+            padding: 0px 10px 10px 10px;
+            .comment-wrapper {
+                border-top:1px solid #ccc;
+                padding: 2px;
+                padding: 10px 2px 5px 2px;
+                color: #000;
+
+                .comment-image {
+                    width: 16px;
+                    height: 15px;
+                    vertical-align: middle;
+                    margin-right: 10px;
+                }
+                .comment-text {
+                    font-size: 14px;
+                    vertical-align: text-bottom;
+                }
+                .comment-date {
+                    color: #aeaeae;
+                    font-size: 11px;
+                    margin-left: 25px;
+                }
+                .comment-time {
+                    color: #aeaeae;
+                    font-size: 11px;
+                    margin-left: 8px;
+                }
+
+                &:last-child {
+                    border-bottom: 0 none; 
+                }
+            }
+        }
+        .hide-commentbox {
+            display: none;
+        }
+    
+        .show-commentbox {
+            display: block;
+        }
+    }
+    .uploaded-documents {
+        display: inline-block;
+        width:25%;
+        padding: 0px 10px 0px 10px;
+        .attachment {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        span {
+            a {
+                color: #1976d2;
+            }
+        }
+    }
+
+    .uploaded-grid-documents {
+        display: inline-block;
+        width:auto;
+        padding: 0px 10px 0px 0px;
+        .attachment {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        span {
+            a {
+                color: #1976d2;
+            }
+        }
+    }
+}
+
+.docs-container{
+    .row{
+        margin: 20px 0px 0px 20px !important;
+        padding-bottom: 20px;
+        .cols.fileupload-col-width{
+            margin-right: 25px;
+            .upload-icon{
+                .MuiSvgIcon-root{
+                    position: relative;
+                    left: 7px;
+                    top: 3px;
+                }
+            }
+        }
+    }
+}
+

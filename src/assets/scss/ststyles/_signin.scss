@@ -1,0 +1,38 @@
+.login-links{
+    display: block;
+    .remember{
+        display: inline-block;
+        float: left;
+        position: relative;
+        bottom: 8px;
+    }
+    .forgot-pwd{
+        float: right;
+    }
+}
+
+.verification-login-btn{
+    margin-top: 20px;
+    a[role=button]{
+        color: #ffffff;
+    }
+}
+
+//Activate
+.click-here-link {
+    color: #464D69 !important;
+    font-weight: 500;
+}
+
+.password-info{
+    color: #1976d2;
+    position: absolute;
+    top: 15px;
+    right: 52px;
+}
+
+@media only screen and (max-width: 767px) {
+    .rct-session-wrapper .row-eq-height {
+      left: 0 !important;
+    }
+}

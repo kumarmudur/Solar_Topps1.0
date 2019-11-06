@@ -1,0 +1,121 @@
+.page-heading {
+    .generic-msg {
+        display: inline-block;
+        position: relative;
+        left: 25%;
+        vertical-align: top;
+    }
+    .inline-block-element {
+        display: inline-block;
+    }
+}
+.page-readonly-view {
+	.MuiInput-underline:before, .MuiInput-underline:after {
+		border: 0 none !important;
+	}
+}
+.bulk-import-modal .MuiDialog-paperWidthSm {
+    max-width: 100%;
+    width: 50%;
+}
+.bulk-import-download-sample {
+    .download-file {
+        display: inline-flex;
+        margin-right: 20px;
+        .download-tag {
+            .MuiSvgIcon-root {
+                vertical-align: middle;
+            }
+        }
+    }
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.MuiFormControl-marginNormal{ 
+    margin: 8px 0px !important;
+    min-width: 250px !important;
+    width: auto !important;
+    padding-right: 25px !important;
+}
+
+.MuiDialogTitle-root {
+    color: #464D69 !important;
+}
+
+.MuiDialogActions-root.MuiDialogActions-spacing{
+    padding-right: 22px;
+    margin-bottom: 15px;
+}
+
+// signup page MUI Phone
+.signup-phone {
+    .MuiInput-underline:before, .MuiInput-underline:hover:not(.Mui-disabled):before {
+        border-bottom: 0 none !important;
+    }
+}
+
+// Form Button Style
+.btn-primary, .btn-secondary, .btn-danger {
+    min-width: 100px !important;
+}
+
+// purchase plan radio allignment
+.radio-group-align {
+    width: 250px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    
+    legend{
+        position: relative;
+        bottom: 10px;
+        font-size: 12px !important;
+    }
+
+    .MuiFormGroup-root {
+        display: inline-block !important;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+// Form Textfields width for different resolutions
+@media only screen and (max-width: 1084px) and (min-width: 833px)  {
+    .MuiFormControl-marginNormal {
+        width: 33.3% !important;
+      }
+}
+
+@media only screen and (max-width: 832px) and (min-width: 571px)  {
+    .MuiFormControl-marginNormal {
+        width: 50% !important;
+      }
+}
+
+@media only screen and (max-width: 570px) {
+    .MuiFormControl-marginNormal {
+      width: 100% !important;
+    }
+}
+
+//Removing Autofocus color for textfield and dropdown
+input:-webkit-autofill, input:focus:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 100px #ffffff inset;
+ }
+ 
+ .MuiSelect-select:focus{
+     background-color: #ffffff !important;
+ }
+ 
+ // Removing phone field border for register page
+ .sign-up-page{
+    .MuiInput-underline:after{
+        border-bottom: none !important;
+        transition: none !important;
+    }
+ }
+ 

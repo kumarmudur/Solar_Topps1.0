@@ -1,0 +1,75 @@
+.profile-view{
+    .profile-img-icon {
+        .MuiAvatar-root{
+            position: absolute;
+            left: 100px;
+            top: 20%;
+            width: 12%;
+            height: 57%;
+            border: 8px solid rgba(255, 255, 255, 0.23);
+        }
+    }
+
+    .profile-text {
+        display: inline-grid;
+        width: 50%;
+        color: white;
+        position: absolute;
+        left: 25%;
+        top: 22%;
+    }
+    
+    @media only screen and (max-width: 847px) and (min-width: 500px)  {
+        .profile-img-icon {
+            .MuiAvatar-root{
+                left: 9%;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 617px) and (min-width: 500px)  {
+        .profile-text {
+            left: 24%;
+            font-size: 12px;
+            top: 12%;
+        }
+    }
+
+    @media only screen and (max-width: 499px) and (min-width: 300px)  {
+        .profile-img-icon {
+            .MuiAvatar-root{
+                left: 9%;
+            }
+        }
+        .profile-text {
+            h2, h4 {
+                font-size: small;
+            }
+            font-size: 8px;
+            top : 12px;
+        }
+    }
+
+    .verified-color{
+        color: #F3A94C;
+        font-weight: bold;
+    }
+
+    .user-icon {
+        width: 80px;
+        height: 100px;
+    }
+}
+
+.user-edit-profile {
+    .add-button-align{
+        display: inline-block;
+        position: absolute;
+        bottom: 13%;
+    }
+
+    .contact-add-delete {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+}

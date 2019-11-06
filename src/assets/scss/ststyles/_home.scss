@@ -1,0 +1,24 @@
+.ecom-dashboard-wrapper.landing-page{
+    position: relative;
+    top: 4rem;
+    .page-title-wrap, .breadcrumb {
+        visibility: hidden;
+    }
+    .lp-title{
+        font-size: 24px;
+        color: #23272B;
+        padding: 2% 0;
+    }
+    .lp-modules-list{
+        color: #333333;
+        font-size: 14px;
+        ul{
+            margin: 10px 0 0 20px;
+        }
+    }
+    .lp-started {
+        color: #437d9e;
+        font-size: 24px;
+        padding: 10px 0px;
+    }
+}

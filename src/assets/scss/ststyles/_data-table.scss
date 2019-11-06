@@ -1,0 +1,34 @@
+.MuiTableCell-head{
+    color: #464D69 !important;
+    font-weight: bold !important;
+    background-color: #F4F7FA !important;
+    font-size: 0.85rem !important;
+}
+.add-button{
+    display: inherit;
+    text-align: right;
+    position: relative;
+    bottom: 10px;
+    font-size: 14px;
+    right: 5px;
+    color: #2E3344;
+    font-weight: 500;
+}
+
+.MuiAppBar-positionStatic{
+    position: relative !important;
+}
+.MuiFormLabel-asterisk.MuiInputLabel-asterisk{
+    color: red;
+}
+
+.MuiTableCell-root{
+    white-space: nowrap;
+}
+.MuiTableCell-paddingCheckbox{
+    background-color: #F4F7FA;
+}
+
+.MuiTableRow-root.MuiTableRow-hover:hover{
+    cursor: pointer;
+}

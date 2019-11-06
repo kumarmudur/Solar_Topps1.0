@@ -1,0 +1,135 @@
+.admin-approve-document{
+
+    .MuiTableCell-root{
+        padding: 12px 30px 14px 12px;
+    }
+    .additional-info{
+       padding: 15px 0;
+       
+       > :not(:first-child) { margin-left: .25rem; }
+       > :not(:last-child) { margin-right: .25rem; }
+    }
+
+    .doc-name{
+        position: relative;
+        bottom: 7px;
+
+        a{
+            color: #007bff;
+        }
+    }
+    .form-group {
+        margin: 0;
+        input[type=text] {
+            border: none;
+            border-bottom: 1px solid rgba(224, 224, 224, 1);
+            width: 190px;
+            font-size: 14px;
+            padding-bottom: 10px;
+        }
+
+    }
+
+    .document-date {
+        border: 0 none;
+        border-bottom: 1px solid #464D69;
+        width: 112%;
+    }
+
+    .MuiSvgIcon-root {
+        vertical-align: middle;
+    }
+
+    .uploaded-grid-documents {
+        display: inline-block;
+        width:auto;
+        padding: 0px 10px 0px 0px;
+        .attachment {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        span {
+            a {
+                color: #1976d2;
+            }
+        }
+    }
+
+    .commentbox-wrapper {
+        background-color: #f5f5f5;
+        display: block;
+        padding: 10px 10px 0 10px;
+        width: 98%;
+        margin: 2% auto;   
+        h4 {
+            color: #464D69;
+            font-size: 16px;
+            margin: 0 auto;
+        }
+        .header-text {
+            cursor: pointer;
+            padding: 3px 0px 13px 0px;
+            
+            .up-arrow {
+                transform: rotate(-180deg);
+                background-repeat: no-repeat;
+                margin-right: 5px;
+                vertical-align: middle;
+            }
+    
+            .image-style {
+                display: inline-block;
+                cursor: pointer;
+            }
+    
+            .down-arrow {
+                background-repeat: no-repeat;
+                margin-right: 5px;
+                vertical-align: middle;
+            }
+        }
+        .message-block {
+            padding: 0px 10px 10px 10px;
+            .comment-wrapper {
+                border-top:1px solid #ccc;
+                padding: 2px;
+                padding: 10px 2px 5px 2px;
+                color: #000;
+
+                .comment-image {
+                    width: 16px;
+                    height: 15px;
+                    vertical-align: middle;
+                    margin-right: 10px;
+                }
+                .comment-text {
+                    font-size: 14px;
+                    vertical-align: text-bottom;
+                }
+                .comment-date {
+                    color: #aeaeae;
+                    font-size: 11px;
+                    margin-left: 25px;
+                }
+                .comment-time {
+                    color: #aeaeae;
+                    font-size: 11px;
+                    margin-left: 8px;
+                }
+
+                &:last-child {
+                    border-bottom: 0 none; 
+                }
+            }
+        }
+        .hide-commentbox {
+            display: none;
+        }
+    
+        .show-commentbox {
+            display: block;
+        }
+    }
+}
